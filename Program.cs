@@ -24,7 +24,7 @@ namespace problem2_csharp
 
             var numberinput = double.TryParse(input, out number);
 
-            if (number <= 100)
+            if (number < 100)
             {
                 for (var i = 0; i < 12; i++)
                     {
